@@ -17,3 +17,9 @@ third_party/tint
 android_test/libs
 android_test/include
 .DS_Store
+
+# exclude project files
+**.sln
+**.vcxproj
+**.vcxproj.user
+**.vcxproj.filters

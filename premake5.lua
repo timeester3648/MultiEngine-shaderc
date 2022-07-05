@@ -18,6 +18,7 @@ project "shaderc"
 		"%{IncludeDir.spirv_headers}",
 		"%{IncludeDir.spirv_tools}/spirv_tools",
 
+		"./libshaderc/include/",
 		"./libshaderc_util/include",
 		"./libshaderc/include/shaderc"
 	}

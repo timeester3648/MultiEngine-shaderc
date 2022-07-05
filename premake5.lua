@@ -8,8 +8,8 @@ project "shaderc"
 	inlining "Auto"
 
 	defines {
-		"ENABLE_OPT",
-		"ENABLE_HLSL"
+		"ENABLE_OPT=true",
+		"ENABLE_HLSL=true"
 	}
 
 	includedirs {

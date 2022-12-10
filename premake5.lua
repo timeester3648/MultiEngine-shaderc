@@ -37,5 +37,5 @@ project "shaderc"
 		"./libshaderc_util/src/version_profile.cc"
 	}
 
-	filter "action:vs*"
+	filter "toolset:msc"
 		disablewarnings { "4996", "4717" }
